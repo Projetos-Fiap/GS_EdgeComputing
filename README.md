@@ -13,6 +13,7 @@ Para a matéria de Edge Computing, criamos duas ferramentas que auxiliariam no c
 
 ### Simulação dos Protótipos:
 [Link para o Tinkercad, protótipo 1: Cadeado eletrônico ](https://www.tinkercad.com/things/3DkYKhmh95o?sharecode=zEPBaPbX4RVJtKPyoWlMiWcNrTCX9IpiTXcwhGNdCd8)
+
 [Link para o Tinkercad, protótipo 2: Sensor de temperatura e umidade](https://www.tinkercad.com/things/fMXz7fVefkP?sharecode=y_ysQKldC0dJEmXs4IzZEQ8vIxD9OkrLEqB6VJS0RAo)
 
 ### Componentes utilizados
