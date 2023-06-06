@@ -42,7 +42,7 @@ Para a matéria de Edge Computing, criamos duas ferramentas que auxiliariam no c
 ### Imagens dos circuitos
 
 #### Protótipo 1:
-![Imagem](link aqui)
+![Imagem](https://github.com/Projetos-Fiap/GS_EdgeComputing/blob/main/circuito_1.png?raw=true)
 
 #### Protótipo 2:
-![Imagem](link aqui)
+![Imagem](https://github.com/Projetos-Fiap/GS_EdgeComputing/blob/main/circuito_2.png?raw=true)
