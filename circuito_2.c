@@ -86,17 +86,17 @@ void loop() {
       
 ///// LED DE AVISO    
                   
-   // Temp fora = Led vermelho
-   if (temperatureC < TEMP_OK_MIN_LEVEL || temperatureC > TEMP_OK_MAX_LEVEL) {
-     digitalWrite(GREEN_LED_PIN, LOW);
-     digitalWrite(RED_LED_PIN, HIGH);
-   }
-
-   // Umidade fora = Led Vermelho
-   if (humidityPercentage < HUM_OK_MIN_LEVEL || humidityPercentage > HUM_OK_MAX_LEVEL) {
-     digitalWrite(GREEN_LED_PIN, LOW);
-     digitalWrite(RED_LED_PIN, HIGH);
-   }                       
+// Temp fora OU Umidade fora = Led vermelho
+if (temperatureC < TEMP_OK_MIN_LEVEL || temperatureC > TEMP_OK_MAX_LEVEL ||
+    humidityPercentage < HUM_OK_MIN_LEVEL || humidityPercentage > HUM_OK_MAX_LEVEL) {
+  digitalWrite(GREEN_LED_PIN, LOW);
+  digitalWrite(RED_LED_PIN, HIGH);
+} 
+else {
+  digitalWrite(GREEN_LED_PIN, HIGH);
+  digitalWrite(RED_LED_PIN, LOW);
+}
+                  
   
 ///// LCD /////    
       
